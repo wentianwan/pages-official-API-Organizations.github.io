@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<script>
+function detectDevTools() {
+    const t = 160;
+    const n = window.outerWidth - window.innerWidth > t;
+    const o = window.outerHeight - window.innerHeight > t;
+    const i = n || o;
+    const c = () => {
+        const e = performance.now();
+        debugger;
+        const t = performance.now();
+        return t - e > 100;
+    };
+    try {
+        if (i || c()) {
+            window.location.href = "https://www.WenTianPlay.com";
+            return;
+        }
+    } catch (e) {
+        window.location.href = "https://www.WenTianPlay.com";
+    }
+}
+setInterval(detectDevTools, 500);
+window.onload = function() {
+    detectDevTools();
+};
+document.onkeydown = function(e) {
+    if (e.keyCode === 123 || (e.ctrlKey && e.shiftKey && e.keyCode === 73) || (e.ctrlKey && e.shiftKey && e.keyCode === 74) || (e.ctrlKey && e.keyCode === 85)) {
+        window.location.href = "https://www.WenTianPlay.com";
+        return false;
+    }
+};
+document.addEventListener("contextmenu", function(e) {
+    e.preventDefault();
+});
+document.addEventListener("contextmenu", function(e) {
+    e.preventDefault();
+});
+document.addEventListener("keydown", function(e) {
+    if ("F12" === e.key) e.preventDefault();
+});
+document.addEventListener("copy", function(e) {
+    e.preventDefault();
+});
+</script>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>天彬TianBIN框架设定 | 游戏×小说-导航页</title>
+    <meta name="description" content="天彬TianBIN框架设定—导航页" />
+    <meta name="keywords" content="天彬, tianbin, 天彬tianbin" />
+    <meta name="robots" content="index,follow" />
+    <link rel="icon" href="https://www.tianbin.net/favicon.ico" type="image/png" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        #footer {
+            height: auto !important;
+            line-height: 1.6em !important;
+            padding: 1em 2em !important;
+            z-index: 1000;
+        }
+
+        #footer p {
+            margin: 0.5em 0 !important;
+        }
+
+        #footer .disclaimer {
+            font-size: .9em;
+            color: #aaa;
+        }
+
+        #footer small {
+            font-size: .85em;
+            color: #ccc;
+        }
+    </style>
+
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?95a55d866fa8eb12fcee0d8fac240d7c";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+    <script>
+        window.onpageshow = function(event) {
+            if (event.persisted) location.reload();
+        };
+    </script>
+</head><body class="is-preload"><img width="0" src="https://www.tianbin.net/favicon.ico" alt="favicon" /><div id="wrapper"><div id="bg"></div><div id="overlay"></div><div id="main"><header id="header"><h1>天彬 <small style="font-size:.6em">TianBIN</small></h1><p>框架设定 | 游戏×小说</p><p><a href="mailto:op@tianbin.org?subject=角色设定投稿&body=姓名：%0D%0A性别：%0D%0A生日：%0D%0A年龄：%0D%0A身份：%0D%0A外貌：%0D%0A性格：%0D%0A爱好：%0D%0A优点：%0D%0A缺点：%0D%0A技能：%0D%0A重要经历：%0D%0A人际关系：%0D%0A修为(选填)：" target="_blank">填写并投稿角色设定报名 →</a><br/><a href="./api/" target="_blank">征稿设定公示库 →</a></p></header>
+            <footer id="footer">
+                <p>
+                    <b>
+            &copy; <script>document.write(new Date().getFullYear());</script>
+            <a href="https://bintian.net" target="_blank">天彬TianBIN</a><img width="20px" height="auto" src="https://icp.WenTianPlay.top/favicon.ico"><a href="https://icp.wentianplay.top" target="_blank">彬ICP备20250828号</a>     
+          </b><br/>
+                    <span class="disclaimer">
+            天彬 · 请共同维护一个友善、合法、健康的网络环境。
+          </span><br/>
+                    <small>
+      Powered by 
+      <a href="https://bintian.net" target="_blank" rel="noopener">天彬TianBIN</a>
+      &amp; 
+      <a href="https://www.WenTianPlay.com" target="_blank" rel="noopener">文天玩 Community</a>
+      ❤️
+    </small>
+                </p>
+            </footer>
+        </div>
+    </div>
+    <script data-cfasync="false" src="assets/js/email-decode.min.js"></script>
+    <script>
+        window.onload = () => document.body.classList.remove("is-preload");
+        window.ontouchmove = () => false;
+        window.onorientationchange = () => {
+            document.body.scrollTop = 0;
+        };
+    </script>
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"4baa36b32cee4dce9ffb3518779fe5da","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}'
+        crossorigin="anonymous"></script>
+</body>
+</html>
+<meta http-equiv="refresh" content="14;url=https://www.tianbin.org">
