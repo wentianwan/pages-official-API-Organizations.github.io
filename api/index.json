@@ -1,0 +1,21 @@
+{
+  "v": "68",
+  "site": "tianbin.org",
+  "role": "auth_root",
+  "official_domains": [
+    "wentianplay.net",
+    "wentianwan.com",
+    "wentianplays.com",
+    "bintian.net",
+    "wentianyou.com"
+  ],
+  "tokens": {
+    "wentianplay.net": "20241227T150942",
+    "wentianwan.com": "20250403T151751",
+    "wentianplays.com": "20251001T080016",
+    "bintian.net": "20260209T080018",
+    "wentianyou.com": "20260302T162756"
+  },
+  "upstream": "https://api.tianbin.net/api/index.json",
+  "ttl": 86400
+}
